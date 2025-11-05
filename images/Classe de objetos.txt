@@ -1,0 +1,20 @@
+
+// Classe de objetos no contexto de um jogo
+class PersonagemDeJogo {
+    var arma: String = ""
+    var armadura: String = ""
+    var habilidadeEspecial: String = ""
+}
+
+// Função principal
+fun main() {
+    val personagem = PersonagemDeJogo()
+    personagem.arma = "Espada Lendária"
+    personagem.armadura = "Armadura de Dragão"
+    personagem.habilidadeEspecial = "Golpe Flamejante"
+
+    println("Personagem equipado com:")
+    println("Arma: ${personagem.arma}")
+    println("Armadura: ${personagem.armadura}")
+    println("Habilidade Especial: ${personagem.habilidadeEspecial}")
+}

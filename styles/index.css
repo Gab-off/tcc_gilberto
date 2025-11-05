@@ -1,0 +1,18 @@
+.background-1 {
+    background-color: black;
+}
+
+.background-black_logo {
+    background-color: black;
+    background-image:
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url('/images/logo_gradient.svg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-origin: content-box;
+    background-size: contain;
+}
+
+.background-black {
+    background-color: black;
+}

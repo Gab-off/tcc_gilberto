@@ -1,0 +1,30 @@
+// Genérico personagem
+open class Personagem {
+    open fun atacar() {
+        println("O personagem está atacando!")
+    }
+}
+
+// Específico Guerreiro
+class Guerreiro : Personagem() {
+    override fun atacar() {
+        println("O Guerreiro ataca com sua espada!")
+    }
+}
+
+// Específico Mago
+class Mago : Personagem() {
+    override fun atacar() {
+        println("O Mago ataca com um feitiço de fogo!")
+    }
+}
+
+// Função principal
+fun main() {
+    val personagem1: Personagem = Guerreiro() 
+    val personagem2: Personagem = Mago()    
+
+  
+    personagem1.atacar() 
+    personagem2.atacar() 
+}

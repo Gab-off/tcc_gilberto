@@ -1,0 +1,18 @@
+{
+  "name": "tcc_gilberto",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "slidev build",
+    "dev": "slidev --open",
+    "export": "slidev export"
+  },
+  "dependencies": {
+    "@slidev/cli": "^52.6.0",
+    "@slidev/theme-default": "latest",
+    "@slidev/theme-seriph": "latest",
+    "chart.js": "^4.5.1",
+    "vue": "^3.5.22",
+    "vue-chartjs": "^5.3.3"
+  }
+}
